@@ -699,7 +699,7 @@ body{background:#1E282C}body #terminal{color:#657B83}body #user{color:#C3E88D}bo
         stdoutDelay = parseDelay("15"),
         commandDelay = parseDelay("15");
     const typeeffetct = async () => {
-        await typewriter(`<strong><span id='user'>numr@one</span><span id='terminal'>:</span><span id='dir'>~/</span></strong><span id='terminal'>$</span>1`, "ps1_01", ps1Delay); 
+        await typewriter(`<strong><span id='user'>numr@one</span><span id='terminal'>:</span><span id='dir'>~/</span></strong><span id='terminal'>$</span>`, "ps1_01", ps1Delay); 
         await typewriter(`<span id='terminal'>cd secrets<\/span>`, "cd", commandDelay);
         await typewriter(`<strong><span id='user'>numr@one<\/span><span id='terminal'>:<\/span><span id='dir'>~\/secrets<\/span><\/strong><span id='terminal'>$<\/span>`, "ps1_02", ps1Delay); 
         await typewriter(`<span id=terminal>cat about.txt<\/span>`, "cat", commandDelay);
